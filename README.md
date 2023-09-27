@@ -1,7 +1,3 @@
-# DWH - Data Warehouse and Database Resources
-
-Welcome! The DWH (Data Warehouse) repository serves as a comprehensive collection of resources dedicated to the process of gathering and managing data from various sources to provide meaningful insights about a business. Let's explore what a Data Warehouse is and more about this repository:
-
 ## 📚 What is a Data Warehouse?
 
 A Data Warehouse (DW) is the process of collecting and managing data from various sources to provide meaningful insights about a business. A Data Warehouse is typically used to connect and analyze heterogeneous business data sources. It is a critical component of a Business Intelligence (BI) system, designed for data analysis and reporting.
