@@ -7,15 +7,15 @@ There are three main types of architectures considered when creating a data ware
 ![image](https://github.com/aysegulyigitbi/DWH/assets/127193220/deb57ab8-84eb-433f-86a4-881e9cb7f460)
 
 
-1. **Single-layer Data Warehouse Architecture:**
+1. **Single-Tiered Architecture:**
    - Aims to create a compact data set and minimize the amount of stored data.
    - Useful in eliminating redundancies but not applicable to organizations with significant data needs and multiple streams.
 
-2. **Two-layer Storage Systems:**
+2. **Two-Tiered Architecture:**
    - Physically isolates existing resources from the environment.
    - More efficient in processing and organizing data but lacks flexibility and requires a minimal number of end-users.
 
-3. **Three-layer Architecture (the most popular type):**
+3. **Three-Tiered Architecture(the most popular type):**
    - Creates a more structured flow towards actionable insights from raw clusters.
    - The bottom layer is the database server itself, housing backend tools for data cleaning and transformation. (Database)
    - The middle layer uses OLAP and acts as an intermediary between end-users and the warehouse. OLAP can communicate with both relational and multidimensional databases, enabling the collection of more data based on broader parameters. (Data Warehouse)
