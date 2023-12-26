@@ -1,27 +1,22 @@
-# DWH - Data Warehouse and Database Resources
+# Data Warehouse Architecture
 
-Welcome! This DWH (Data Warehouse) repository hosts an extensive collection of resources related to data warehousing and databases. Here's more about this repository:
+Data warehouse architecture represents the design of an organization's framework for collecting and storing data. As data needs to be processed, cleaned, and organized to be usable, the design of a data warehouse focuses on discovering the most efficient method to extract valuable insights from raw sources and present them in a digestible system that provides valuable Business Intelligence (BI) insights.
 
-## 📚 Resources
+There are three main types of architectures considered when creating a data warehouse for an organization, each with its own advantages and disadvantages
 
-The DWH Repo houses articles and resources covering a wide range of topics, including:
+![image](https://github.com/aysegulyigitbi/DWH/assets/127193220/deb57ab8-84eb-433f-86a4-881e9cb7f460)
 
-- 🏗️ Data Warehouse Design
-- 🛢️ Database Management
-- 📊 Data Analytics and Business Intelligence
-- 🧑‍💻 SQL Tips and Tricks
-- 📖 Data Warehouse and Database Learning Materials
 
-## 📝 Articles
+1. **Single-layer Data Warehouse Architecture:**
+   - Aims to create a compact data set and minimize the amount of stored data.
+   - Useful in eliminating redundancies but not applicable to organizations with significant data needs and multiple streams.
 
-The repository includes engaging articles on data warehousing and databases. These articles provide valuable insights for both beginners and experienced professionals.
+2. **Two-layer Storage Systems:**
+   - Physically isolates existing resources from the environment.
+   - More efficient in processing and organizing data but lacks flexibility and requires a minimal number of end-users.
 
-## 🚀 Contribute
-
-By using the DWH Repo, you can share your knowledge in the fields of data warehousing and databases and contribute to a growing community. Join us and help more people gain insights into the world of data!
-
-## 📢 Contact
-
-For inquiries or more information, please contact us at [ay.yigit@outlook.com].
-
-We look forward to all contributions! 🌟
+3. **Three-layer Architecture (the most popular type):**
+   - Creates a more structured flow towards actionable insights from raw clusters.
+   - The bottom layer is the database server itself, housing backend tools for data cleaning and transformation. (Database)
+   - The middle layer uses OLAP and acts as an intermediary between end-users and the warehouse. OLAP can communicate with both relational and multidimensional databases, enabling the collection of more data based on broader parameters. (Data Warehouse)
+   - The top layer serves as the frontend of a company's overall business analysis system, where developers can use queries, data visualizations, and analytics software to communicate with results. (Reporting)
