@@ -2,7 +2,10 @@
 
 Data warehouse architecture represents the design of an organization's framework for collecting and storing data. As data needs to be processed, cleaned, and organized to be usable, the design of a data warehouse focuses on discovering the most efficient method to extract valuable insights from raw sources and present them in a digestible system that provides valuable Business Intelligence (BI) insights.
 
-There are three main types of architectures considered when creating a data warehouse for an organization, each with its own advantages and disadvantages:
+There are three main types of architectures considered when creating a data warehouse for an organization, each with its own advantages and disadvantages
+
+![image](https://github.com/aysegulyigitbi/DWH/assets/127193220/deb57ab8-84eb-433f-86a4-881e9cb7f460)
+
 
 1. **Single-layer Data Warehouse Architecture:**
    - Aims to create a compact data set and minimize the amount of stored data.
