@@ -1,27 +1,33 @@
-# DWH - Data Warehouse and Database Resources
+# What is OLTP?
 
-Welcome! This DWH (Data Warehouse) repository hosts an extensive collection of resources related to data warehousing and databases. Here's more about this repository:
+Online Transaction Processing (OLTP) is a system that manages a business's daily transactions and organizes operations on a database. Its primary objective is to efficiently handle operations like Insert, Delete, and Update that occur within a business process, supporting the day-to-day operations of the business. The focal point of OLTP is to process real-time and filtered information swiftly.
 
-## 📚 Resources
+![image](https://github.com/aysegulyigitbi/DWH/assets/127193220/78355ff9-fe0f-496b-8872-8a50d6c5e405)
 
-The DWH Repo houses articles and resources covering a wide range of topics, including:
 
-- 🏗️ Data Warehouse Design
-- 🛢️ Database Management
-- 📊 Data Analytics and Business Intelligence
-- 🧑‍💻 SQL Tips and Tricks
-- 📖 Data Warehouse and Database Learning Materials
+## OLTP Workload and Tasks
 
-## 📝 Articles
+OLTP workloads generally consist of short transactions that occur in a brief period. The system's core tasks include:
 
-The repository includes engaging articles on data warehousing and databases. These articles provide valuable insights for both beginners and experienced professionals.
+- **User Identity Management:** Determining the identity of the current user.
+- **Location Tracking:** Tracking the current location of the user.
+- **Invoice Information Management:** Adding, updating, or deleting invoice information for a specific user or group, especially crucial for financial institutions like banks.
+- **User Information Update:** Updating user information, adding new users, or deleting old users.
 
-## 🚀 Contribute
+## OLTP System Characteristics
 
-By using the DWH Repo, you can share your knowledge in the fields of data warehousing and databases and contribute to a growing community. Join us and help more people gain insights into the world of data!
+1. **Data Processing Capacity:** Suitable for processing a small amount of data.
+2. **Response Time:** OLTP typically focuses on fast response times.
+3. **Real-time Data Processing:** Data is created or updated instantly during transactions.
+4. **High User Volume:** OLTP systems are designed to handle a high number of users simultaneously.
+5. **Data Management Ease:** Data can be easily updated, deleted, or added.
 
-## 📢 Contact
+**Note:** In OLTP systems, "Select" and "Delete" commands are usually used sparingly. Deletion operations are recommended to be performed using the "IsDeleted" column.
 
-For inquiries or more information, please contact us at [ay.yigit@outlook.com].
+## OLTP Systems
 
-We look forward to all contributions! 🌟
+- MySQL
+- Oracle Database
+- PostgreSQL
+- Microsoft SQL
+- IBM DB2
